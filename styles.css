@@ -8,14 +8,26 @@ body{
     padding:10px;
     margin:10px;
     background:lightslategray;
+    border-radius:5px;
 }
 
 .assignment img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 4px solid black;
+}
+.assignment img:hover {
+    border:4px Maroon;
 }
 
 h1 {
     color: White;
     text-align:center;
+}
+a{
+   text-decoration:none;
+   color:Maroon;
+}
+a:hover {
+    color:white;
 }
